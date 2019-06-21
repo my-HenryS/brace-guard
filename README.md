@@ -1,5 +1,5 @@
 # brace-guard
-Adding readability braces around statements for LLVM 3.5
+Adding readability braces around statements for c/c++ programs (compatible with LLVM 3.5)
 
 ## Usage
 1. put this directory under YOUR_PATH/llvm-3.5.0.src/tools/clang/tools/
