@@ -1,8 +1,8 @@
 CLANG_LEVEL := ../..
 
-TOOLNAME = struct-locator  #the name of your tool's executable
+TOOLNAME = brace-guard  #the name of your tool's executable
 
-SOURCES := struct-locator.cpp  #the Clang source files you want to compile
+SOURCES := brace-guard.cpp  #the Clang source files you want to compile
 
 include $(CLANG_LEVEL)/../../Makefile.config
 LINK_COMPONENTS := $(TARGETS_TO_BUILD) asmparser bitreader support mc option
